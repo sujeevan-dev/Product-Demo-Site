@@ -3,23 +3,70 @@
 <head>
 	<title>Product Demo Site</title>
 	<!-- Bootstrap CSS CDN -->
-	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<!-- core css -->
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
 
+ <nav class="container navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Product Demo Site</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#showcase">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div> 
+    </nav>
+
+    <!-- showcase -->
+      <section id="showcase">
+        <div class="container">
+
+        <div class="row">
+          <div class="col-md-6 col-sm-6">
+          <div class="showcase-left">
+              <img src="img/surface_studio.png" width="95%">
+            </div>
+          </div>
+
+         
+            <div class="col-md-6 col-sm-6">
+               <div class="showcase-right">
+              <h1>Surface Studio</h1>
+                <p>Turn your desk into a Studio. Surface Studio is designed for the creative process. The 28” PixelSense™ Display gives you a huge canvas for all kinds of work. Use it upright, or draw on it like a drafting table.</p>
+            </div>
+            <a class="btn btn-default btn-large showcase-btn">Read more </a>
+          </div>
+        </div>
+
+        
+          
+    
+        
+      </div>
+    </section>
 
 
 
 <!-- Scrollreveal Snippet CDN-->
 <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
 
-<!-- jQuery CDN -->
-<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 
-<!-- Bootstrap JS CDN -->
-<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>
 </html>
