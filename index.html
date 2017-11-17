@@ -8,13 +8,19 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins|Roboto" rel="stylesheet">
+
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
 	<!-- core css -->
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
 
  <nav class="container navbar navbar-default navbar-fixed-top">
-      <div class="container">
+      
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
             <span class="sr-only">Toggle navigation</span>
@@ -31,42 +37,108 @@
             <li><a href="#contact">Contact</a></li>
           </ul>
         </div><!--/.nav-collapse -->
-      </div> 
+    
     </nav>
 
     <!-- showcase -->
-      <section id="showcase">
-        <div class="container">
-
+      <section id="showcase" class="container">
+        
         <div class="row">
           <div class="col-md-6 col-sm-6">
           <div class="showcase-left">
               <img src="img/surface_studio.png" width="95%">
             </div>
           </div>
-
-         
+    
             <div class="col-md-6 col-sm-6">
                <div class="showcase-right">
-              <h1>Surface Studio</h1>
-                <p>Turn your desk into a Studio. Surface Studio is designed for the creative process. The 28” PixelSense™ Display gives you a huge canvas for all kinds of work. Use it upright, or draw on it like a drafting table.</p>
+                  <h1>Surface Studio</h1>
+                    <p>Turn your desk into a Studio. Surface Studio is designed for the creative process. The 28” PixelSense™ Display gives you a huge canvas for all kinds of work. Use it upright, or draw on it like a drafting table.</p>
+                </div>
+                <a class="btn btn-default btn-large showcase-btn">Read more </a>
+             </div>
             </div>
-            <a class="btn btn-default btn-large showcase-btn">Read more </a>
-          </div>
-        </div>
+        
+      </section>
+      
 
-        
-          
-    
-        
-      </div>
-    </section>
+      <section id="offer" class="container text-center">
+        <hr>
+          <p class="lead">Purchase a new Microsoft Surface, and enjoy a 3-month free trial of the Adobe Creative Cloud Photography plan with 1TB. Offer ends January 18, 2018.</p>
+        <hr>
+      </section>
+
+      <section id="testimonial" class="container">
+            
+            <div class='row'>
+              <div class='col-md-offset-2 col-md-8'>
+                <div class="carousel slide" data-ride="carousel" id="quote-carousel">
+                  <!-- Bottom Carousel Indicators -->
+                  <ol class="carousel-indicators">
+                    <li data-target="#quote-carousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#quote-carousel" data-slide-to="1"></li>
+                    <li data-target="#quote-carousel" data-slide-to="2"></li>
+                  </ol>
+                  
+                  <!-- Carousel Slides / Quotes -->
+                  <div class="carousel-inner">
+                  
+                    <!-- Quote 1 -->
+                    <div class="item active">
+                      <blockquote>
+                        <div class="row">
+                          <div class="col-sm-3 text-center">
+                            <img class="img-circle" src="img/PennyArcadeLogo.jpg" style="width: 100px; height:100px;">
+                          </div>
+                          <div class="col-sm-9">
+                              <i class="fa fa-quote-left fa-pull-left" aria-hidden="true"></i>   Surface Studio is without a doubt the best digital drawing experience I have ever tried.
+                            <small>-Gabe – Penny Arcade</small>
+                          </div>
+                        </div>
+                      </blockquote>
+                    </div>
+                    <!-- Quote 2 -->
+                    <div class="item">
+                      <blockquote>
+                        <div class="row">
+                          <div class="col-sm-3 text-center">
+                            <img class="img-circle" src="img/ResouceLogo.jpg" style="width: 100px;height:100px;">
+                          </div>
+                          <div class="col-sm-9">
+                            <i class="fa fa-quote-left fa-pull-left" aria-hidden="true"></i>   Surface Studio’s unique ability to transform adjusts to every step of your creative process.
+                            <small>-Jaron Schneider – Resource Magazine</small>
+                          </div>
+                        </div>
+                      </blockquote>
+                    </div>
+                    <!-- Quote 3 -->
+                    <div class="item">
+                      <blockquote>
+                        <div class="row">
+                          <div class="col-md-offset-3 col-sm-offset-3">
+                            <i class="fa fa-quote-left fa-pull-left" aria-hidden="true"></i>   At first glance, it looks rather incredible.
+                             <small>-Stan Horaczek – Popular Photography</small>
+                          </div>
+                        </div>
+                      </blockquote>
+                    </div>
+                  </div>
+                  
+                  <!-- Carousel Buttons Next/Prev -->
+                  <a data-slide="prev" href="#quote-carousel" class="left carousel-control"><i class="fa fa-chevron-left"></i></a>
+                  <a data-slide="next" href="#quote-carousel" class="right carousel-control"><i class="fa fa-chevron-right"></i></a>
+                </div>                          
+              </div>
+            </div>
+            
+       </section>
 
 
 
 <!-- Scrollreveal Snippet CDN-->
 <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
 
-
+<!-- Core JavaScript -->
+<script src="js/main.js"></script>
 </body>
 </html>
