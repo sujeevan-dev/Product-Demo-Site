@@ -22,8 +22,12 @@ body {
 	padding-left: 0.5em;
 }
 
-.showcase-left {
-	text-align: left;
+.btn {
+	color: #337ab7;
+}
+
+p {
+	text-align: justify;
 }
 
 section#offer {
@@ -33,6 +37,7 @@ section#offer {
 section#testimonial {
 	background: #f1f1f1;
 }
+
 
 /* carousel */
 #quote-carousel 
