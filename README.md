@@ -4,4 +4,4 @@ I created this websited for a local outlet in order to promote their new launche
 visit: https://htmlpreview.github.io/?https://github.com/sujeevan81/Product-Demo-Site/blob/master/index.html
 
 ![alt tag](img/Product-Demo-Site.png)
-![GitHub logo](img/image)
+![GitHub Logo](img/image)
